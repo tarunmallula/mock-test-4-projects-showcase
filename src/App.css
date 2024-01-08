@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.nav-container {
+  background-color: #f1f5f9;
+  padding: 20px;
+}
+.nav-image {
+  width: 160px;
+  height: 60px;
+  margin-left: 60px;
+}
+.websites-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.select {
+  height: 45px;
+  width: 35%;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  padding: 6px 16px 6px 16px;
+  outline: none;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.loader-container {
+  margin-top: 80px;
+  align-self: center;
+}
+.projects-list {
+  margin-left: 30px;
+  margin-top: 60px;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.failure-image {
+  width: 400px;
+  height: 200px;
+  margin-bottom: 5px;
+}
+.failure-title {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+.failure-text {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0px;
+}
+.failure-button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #328af2;
+  border: none;
+  border-radius: 6px;
+  height: 40px;
+  width: 90px;
+  margin-bottom: 30px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+  cursor: pointer;
+}
